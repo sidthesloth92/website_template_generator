@@ -1,6 +1,6 @@
 {
   "name": "tempgen",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A simple utility that allows users to create a blank website template with CSS reset, SASS reset. it also provides a live reload server.",
   "bin": {
     "tempgen": "./index.js"
