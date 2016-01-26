@@ -1,0 +1,25 @@
+{
+  "name": "tempgen",
+  "version": "0.1.0",
+  "description": "A simple utility that allows users to create a blank website template with CSS reset, SASS reset. it also provides a live reload server.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sidthesloth92/website_template_generator.git"
+  },
+  "keywords": [
+    "template",
+    "website",
+    "generator",
+    "liverelaod"
+  ],
+  "author": "Dinesh Balaji <www.sidthesloth@gmail.com> (https://dbwriteups.wordpress.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sidthesloth92/website_template_generator/issues"
+  },
+  "homepage": "https://github.com/sidthesloth92/website_template_generator#readme"
+}
