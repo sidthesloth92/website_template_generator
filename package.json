@@ -2,7 +2,9 @@
   "name": "tempgen",
   "version": "0.1.0",
   "description": "A simple utility that allows users to create a blank website template with CSS reset, SASS reset. it also provides a live reload server.",
-  "main": "index.js",
+  "bin": {
+    "tempgen": "./index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -21,5 +23,11 @@
   "bugs": {
     "url": "https://github.com/sidthesloth92/website_template_generator/issues"
   },
-  "homepage": "https://github.com/sidthesloth92/website_template_generator#readme"
+  "homepage": "https://github.com/sidthesloth92/website_template_generator#readme",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "commander": "^2.9.0",
+    "prompt": "^0.2.14",
+    "shelljs": "^0.5.3"
+  }
 }
